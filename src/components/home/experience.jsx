@@ -12,19 +12,19 @@ const Experience = () => {
           <img src={img.Logo} alt="" />
         </div>
         <div className="txt-xp">
-          <p>
+          <p className="txt-desc">
             Liderazgo en Frontend: Inicialmente, lideré el desarrollo del
             frontend de el proyecto "Regiones", donde me encargué de la
             implementación de interfaces de usuario intuitivas y funcionales,
             garantizando una experiencia fluida y atractiva para los usuarios.
           </p>
-          <p>
+          <p className="txt-desc">
             Liderazgo de Proyecto: Posteriormente, asumí el rol de líder del
             proyecto en general, coordinando las distintas fases del desarrollo,
             gestionando el equipo y asegurando que los objetivos y plazos se
             cumplieran eficazmente.
           </p>
-          <p>
+          <p className="txt-desc">
             Soporte y Mantenimiento: Además, formé parte del equipo de soporte y
             mantenimiento, donde también desempeñé el papel de líder. En este
             rol, supervisé la resolución de problemas y la implementación de
