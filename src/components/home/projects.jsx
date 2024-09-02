@@ -1,5 +1,16 @@
 import React from "react";
 import { img } from "../img/img";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faReact,
+  faJs,
+  faNodeJs,
+  faHtml5,
+  faCss3Alt,
+  faPython,
+} from "@fortawesome/free-brands-svg-icons";
+import { faCode, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = () => {
   return (
@@ -21,30 +32,7 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      {/* <div className="card">
-        <div className="info_card">
-          <h1>Regiones</h1>
-          <img src={img.Regiones} alt="" className="Card_img" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius error
-            reprehenderit labore provident tempora facilis, voluptates nam at
-            illo minima sapiente. Quae praesentium dignissimos non eligendi
-            culpa saepe modi delectus?
-          </p>
-        </div>
-      </div>
-      <div className="card">
-        <div className="info_card">
-          <h1>Regiones</h1>
-          <img src={img.Regiones} alt="" className="Card_img" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius error
-            reprehenderit labore provident tempora facilis, voluptates nam at
-            illo minima sapiente. Quae praesentium dignissimos non eligendi
-            culpa saepe modi delectus?
-          </p>
-        </div>
-      </div> */}
+      
     </div>
   );
 };

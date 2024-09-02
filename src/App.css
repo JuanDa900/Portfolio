@@ -11,8 +11,14 @@
   display: flex;
   align-items: center;
   border-radius: 5em;
-  border: 3px solid #B510EC;
   padding: 0.2em 0.5em;
+  border: 3px solid transparent;
+  transition: border-color 0.3s ease, border-width 0.3s ease;
+}
+
+.header.bordered {
+  border-color: #B510EC;
+  border-width: 3px;
 }
 
 .list-text {
@@ -68,6 +74,10 @@
   max-width: 50%;
 }
 
+.highlight {
+  color: #B510EC;
+}
+
 .li_text{
   margin-top: 1.5em;
   display: flex;
@@ -85,16 +95,16 @@
   align-items: center;
   width: auto;
   height: auto;
+  transition: transform 0.3s ease;
+}
+
+.li_text li:hover {
+  transform: scale(1.1);
 }
 
 .li_text li svg {
   margin-right: 0.5em;
 }
-
-/* .li_text:hover li {
-  background-color: #000;
-  transition: 1s;
-} */
 
 .li_text a {
   text-decoration: none;
@@ -163,6 +173,12 @@ html {
   margin-block: 8px;
   margin-inline: 1em;
   border-radius: 0.5em;
+  transition: transform 0.3s ease;
+
+}
+
+.ls_skills :hover {
+  transform: scale(1.1);
 }
 
 .ls_skills li svg {
@@ -185,6 +201,11 @@ html {
   border-radius: 1em;
   padding: 0.5em 1em;
   box-sizing: border-box;
+  transition: box-shadow 0.3s ease; 
+}
+
+.card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra al hacer hover */
 }
 
 .info_card {
@@ -192,6 +213,7 @@ html {
   flex-direction: column;
   align-items: center;
   font-size: larger;
+  color: #000;
 }
 
 .Card_img {
@@ -199,6 +221,31 @@ html {
   height: auto;
   border-radius: 1em;
   margin-bottom: 1em;
+}
+
+@media (max-width: 1200px) {
+  .card {
+    width: 25%;
+  }
+}
+
+@media (max-width: 992px) {
+  .card {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+    margin: 2em;
+  }
 }
 
 /* #5 Experience */
@@ -236,6 +283,10 @@ html {
   flex: 2;
   font-size: large;
   max-width: 100%;
+}
+
+.txt-desc {
+  color: #000;
 }
 
 .Card_xp h2,
