@@ -12,7 +12,9 @@ const Home = () => {
           <img src={img.github} alt="" className="images1" />
         </div>
         <div className="info">
-          <h1>Hola soy Juan David Arévalo Ramírez desarrollador jr </h1>
+        <h1>
+            Hola soy <span className="highlight">Juan David Arévalo Ramírez</span> desarrollador jr
+          </h1>
           <p>
             Con 8 meses de experiencia en el dinámico campo del desarrollo de
             software, he estado inmerso en un mundo de constante evolución y
