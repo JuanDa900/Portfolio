@@ -40,7 +40,10 @@ const Projects = () => {
               </p>
             </div>
             <div>
-              <a href="URL_DE_TU_PAGINA" className="btn-link">
+              <a
+                href="https://regiones-front.vercel.app/home"
+                className="btn-link"
+              >
                 Visita la página
               </a>
             </div>
@@ -50,37 +53,20 @@ const Projects = () => {
           <div className="card">
             <div className="info_card">
               <h1>CarDiag</h1>
-              <img src={img.Regiones} alt="" className="Card_img" />
+              <img src={img.Cardiag} alt="" className="Card_img" />
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Similique a, alias saepe eius provident, ducimus explicabo fugit
-                deleniti adipisci numquam nostrum perferendis. Est cumque esse
-                quam facere nostrum? Consequatur corrupti et mollitia! Illum,
-                aliquam praesentium.
+                <span className="highlight">"CarDiag"</span> es una plataforma
+                intuitiva que ayuda a los usuarios de automoviles a conocer las
+                fallas que tienen sus vehiculos y de esa forma poder agendar
+                citas en diferentes talleres automovilisticos ademas de poder
+                comprar repuestos y visualizar la factura correspondiente.
               </p>
             </div>
             <div>
-              <a href="URL_DE_TU_PAGINA" className="btn-link">
-                Repositorio del proyecto
-              </a>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="card">
-            <div className="info_card">
-              <h1>CarDiag</h1>
-              <img src={img.Regiones} alt="" className="Card_img" />
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Similique a, alias saepe eius provident, ducimus explicabo fugit
-                deleniti adipisci numquam nostrum perferendis. Est cumque esse
-                quam facere nostrum? Consequatur corrupti et mollitia! Illum,
-                aliquam praesentium.
-              </p>
-            </div>
-            <div>
-              <a href="URL_DE_TU_PAGINA" className="btn-link">
+              <a
+                href="https://github.com/JuanDa900/CarDiag"
+                className="btn-link"
+              >
                 Repositorio del proyecto
               </a>
             </div>
