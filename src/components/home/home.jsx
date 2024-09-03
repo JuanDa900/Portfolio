@@ -27,17 +27,17 @@ const Home = () => {
       <div className="title_2">
         <ul className="li_text">
           <li>
-            <a href="https://github.com/JuanDa900">
+            <a href="https://github.com/JuanDa900" target="_blank">
               <FontAwesomeIcon icon={faGithub} /> GitHub
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/juan-david-ar%C3%A9valo-ram%C3%ADrez-061349266/">
+            <a href="https://www.linkedin.com/in/juan-david-ar%C3%A9valo-ram%C3%ADrez-061349266/" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/13rMhjEGcVg9swtRV-MF4V1Ub92j1tbOT/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/13rMhjEGcVg9swtRV-MF4V1Ub92j1tbOT/view?usp=sharing" target="_blank">
               <FontAwesomeIcon icon={faFileAlt} /> Ver CV
             </a>
           </li>
