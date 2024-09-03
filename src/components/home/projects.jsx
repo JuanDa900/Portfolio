@@ -43,6 +43,7 @@ const Projects = () => {
               <a
                 href="https://regiones-front.vercel.app/home"
                 className="btn-link"
+                target="_blank"
               >
                 Visita la página
               </a>
@@ -66,6 +67,7 @@ const Projects = () => {
               <a
                 href="https://github.com/JuanDa900/CarDiag"
                 className="btn-link"
+                target="_blank"
               >
                 Repositorio del proyecto
               </a>
