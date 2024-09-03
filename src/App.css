@@ -249,6 +249,7 @@ html {
   border-radius: 5px;
   transition: 0.5s;
   box-shadow: 0 0 5px #B510EC;
+  margin-top: -1em;
 }
 
 .btn-link:hover {
@@ -264,7 +265,7 @@ html {
 }
 
 .card:hover {
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra al hacer hover */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .info_card {

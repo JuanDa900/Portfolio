@@ -32,13 +32,12 @@ const Home = () => {
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/juan-david-arevalo-ramirez-061349266/">
+            <a href="https://www.linkedin.com/in/juan-david-ar%C3%A9valo-ram%C3%ADrez-061349266/">
               <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
             </a>
           </li>
           <li>
-            <a href="#">
-              {" "}
+            <a href="https://drive.google.com/file/d/13rMhjEGcVg9swtRV-MF4V1Ub92j1tbOT/view?usp=sharing">
               <FontAwesomeIcon icon={faFileAlt} /> Ver CV
             </a>
           </li>
