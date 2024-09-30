@@ -12,14 +12,13 @@
   align-items: center;
   border-radius: 5em;
   padding: 0.2em 0.5em;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  border: 3px solid transparent;
+  border: 2px solid transparent;
   transition: border-color 0.3s ease, border-width 0.3s ease;
 }
 
 .header.bordered {
   border-color: #7f0ca5;
-  border-width: 3px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .list-text {
@@ -46,7 +45,6 @@
 /* #2 Home */
 
 .body {
-  background-color: #f5f5f5;
   padding-top: 5em;
   width: auto;
 }
@@ -144,7 +142,8 @@ html {
   margin: 0 auto;
   border-radius: 1em;
   border-style: solid;
-  border: 3px solid #7f0ca5;
+  border: 2px solid #7f0ca5;
+  background-color: #e4e4e4;
 }
 
 .txt-me {
@@ -222,11 +221,11 @@ html {
   max-width: 40%;
   background-color: #e4e4e4;
   margin: 1em;
-
+  border-radius: 1em;
 }
 
 .style_card {
-  border: 1px solid #7f0ca5;
+  border: 2px solid #7f0ca5;
   border-radius: 1em;
   display: block;
   font-family: sans-serif;
@@ -263,8 +262,8 @@ html {
   align-items: center;
   border-radius: 1em;
   padding: 1em;
-  background-color: #f5f5f5;
-  border: 3px solid #7f0ca5;
+  background-color: #e4e4e4;
+  border: 2px solid #7f0ca5;
   width: 25%; 
   box-sizing: border-box;
 
