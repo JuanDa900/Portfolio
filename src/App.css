@@ -1,12 +1,7 @@
-/* Responsive */
-@media only screen and (max-width: 1024px) {
-
-}
-
 /* #1 Header */
 
 .header {
-  background-color: #fff;
+  background-color: #f5f5f5;
   height: auto;
   z-index: 1000;
   position: fixed;
@@ -17,14 +12,14 @@
   align-items: center;
   border-radius: 5em;
   padding: 0.2em 0.5em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   border: 3px solid transparent;
   transition: border-color 0.3s ease, border-width 0.3s ease;
 }
 
 .header.bordered {
-  border-color: #B510EC;
+  border-color: #7f0ca5;
   border-width: 3px;
-  box-shadow: 0 0 5px #B510EC;
 }
 
 .list-text {
@@ -34,7 +29,7 @@
   padding: 0;
   display: flex;
   justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
 }
 
 .list-text li {
@@ -51,10 +46,9 @@
 /* #2 Home */
 
 .body {
-  background-color: #fff;
+  background-color: #f5f5f5;
   padding-top: 5em;
   width: auto;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -81,10 +75,11 @@
   color: #000;
   font-size: 1em;
   max-width: 50%;
+  font-family: sans-serif;
 }
 
 .highlight {
-  color: #B510EC;
+  color: #7f0ca5;
 }
 
 .li_text{
@@ -94,11 +89,12 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 0.5em;
+  font-family: sans-serif;
 }
 
 .li_text li{
   
-  background-color: #f5f5f5;
+  background-color: #fff;
   border: 1.5px solid #e4e4e4;
   border-radius: 1em;
   padding: 0.5em 1em;
@@ -112,7 +108,7 @@
 
 .li_text li:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px #7f0ca5;
 }
 
 .li_text li svg {
@@ -133,8 +129,8 @@
   color: #000;  
   font-weight: bold;
   margin-top: 3em;
-  margin-block-end: 3em;
-  font-family: Arial, Helvetica, sans-serif;
+  margin-block-end: 1em;
+  font-family: sans-serif;
 }
 
 html {
@@ -144,28 +140,30 @@ html {
 /* #4 About me */
 
 .txt_container {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   border-radius: 1em;
   border-style: solid;
-  border-color: #B510EC;
-  box-shadow: 0 0 5px #B510EC;
+  border: 3px solid #7f0ca5;
 }
 
 .txt-me {
   color: #000;
   margin: 1em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
 }
 
 .Separator2 {
+  margin-top: 1em;
   display: flex;
   justify-content: center;
+  color: #000;
+  font-family: sans-serif;
 }
 
 .skills_container {
   width: 75%;
-  max-width: 50em;
+  max-width: 40em;
   margin: 0 auto;
 }
 
@@ -178,13 +176,14 @@ html {
   font-size: auto;
   display: flex;
   justify-content: center;
+  font-family: sans-serif;
   
 }
 
 .ls_skills li {
   display: flex;
   align-items: center;
-  background-color: #f5f5f5;
+  background-color: #fff;
   border: 1.5px solid #e4e4e4;
   width: auto;
   height: auto;
@@ -199,7 +198,7 @@ html {
 
 .ls_skills :hover {
   transform: scale(1.1);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px #7f0ca5;
 }
 
 .ls_skills li svg {
@@ -209,71 +208,39 @@ html {
 
 /* #4 Projects */
 
-.card_container {
-  width: 75%;
-  white-space: inherit;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-block-end: 10px;
-  background-color: #ffffff;
+.ctn_projects {
+  display: flex;
+  width: 80%;
   border-radius: 0.2em;
   padding: 10px;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
   margin: 0 auto;
 }
 
-.card {
-  width: 100%;
-  height: 37em;
-  border: 3px solid #B510EC;
-  background-color: #f5f5f5;
+.ctn_card {
+  max-width: 40%;
+  background-color: #e4e4e4;
+  margin: 1em;
+
+}
+
+.style_card {
+  border: 1px solid #7f0ca5;
   border-radius: 1em;
-  padding: 0.5em 1em;
-  box-sizing: border-box;
-  transition: box-shadow 0.3s ease; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: block;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1em;
 }
 
-.btn-link {
-  display: flex;
-  background-color: #fff;
-  color: #B510EC;
-  text-align: center; 
-  justify-content: center;
+.lk_prj {
   text-decoration: none;
-  padding: 0.5em 1em;
-  border: 3px solid #B510EC;
-  border-radius: 5px;
-  transition: 0.5s;
-  box-shadow: 0 0 5px #B510EC;
-  margin-top: -1em;
 }
 
-.btn-link:hover {
-  border-color: #B510EC;
-  background-color: #B510EC;
-  color: #fff;
-}
+.lk_prj svg {
+  margin-right: 0.5em;
 
-.product-slider {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-}
-
-.card:hover {
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-.info_card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: larger;
-  color: #000;
 }
 
 .Card_img {
@@ -281,27 +248,25 @@ html {
   height: auto;
   border-radius: 1em;
   margin-bottom: 1em;
+  margin-top: 0.5em;
 }
 
 /* #5 Experience */
 
 .Container3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 75%;
   padding: 1em;
+  margin: 0 auto;
 }
 
 .Card_xp {
-  display: flex;
   align-items: center;
   border-radius: 1em;
   padding: 1em;
   background-color: #f5f5f5;
-  border: 2px solid #B510EC;
-  max-width: 80%; 
+  border: 3px solid #7f0ca5;
+  width: 25%; 
   box-sizing: border-box;
-  box-shadow: 0 0 5px #B510EC;
 
 }
 
@@ -309,7 +274,8 @@ html {
   width: 12em; 
   height: auto;
   border-radius: 1em;
-  margin-right: 1.5em;
+  display: block;
+  margin: 0 auto;
 }
 
 .xp_info {
@@ -320,10 +286,11 @@ html {
   flex: 2;
   font-size: large;
   max-width: 100%;
+  font-family: sans-serif;
 }
 
 .txt-desc {
-  color: #000;
+  color: #333;
 }
 
 .Card_xp h2,
@@ -331,6 +298,10 @@ html {
 .Card_xp h3 {
   margin: 0; 
   padding: 0; 
+}
+
+.highlight1 {
+  color: #000;
 }
 
 .Card_xp h2 {
@@ -348,38 +319,24 @@ html {
   font-size: 1em;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 1024px) {
   .Card_xp {
-    flex-direction: column; /* Apila los elementos verticalmente */
-    align-items: center; /* Centra el contenido */
+    width: 40%;
+
+  }
+}
+
+@media (max-width: 770px) {
+  .Card_xp {
+    width: 50%;
+
+  }
+}
+
+@media (max-width: 500px) {
+  .Card_xp {
     width: 100%;
-  }
 
-  .Card_xp img {
-    margin: 0; /* Quita el margen derecho */
-    width: 8em; /* Ajusta el tamaño de la imagen si es necesario */
-  }
-
-  .xp_info {
-    text-align: center; /* Centra el texto en xp_info */
-    margin-bottom: 1em; /* Espacio debajo de xp_info */
-  }
-
-  .txt-xp {
-    font-size: medium; /* Ajusta el tamaño de la fuente si es necesario */
-    text-align: center; /* Centra el texto en txt-xp */
-  }
-
-  .Card_xp h2 {
-    font-size: 1.2em; /* Ajusta el tamaño del texto si es necesario */
-  }
-
-  .Card_xp h3 {
-    font-size: 1em; /* Ajusta el tamaño del texto si es necesario */
-  }
-
-  .Card_xp h4 {
-    font-size: 0.9em; /* Ajusta el tamaño del texto si es necesario */
   }
 }
 

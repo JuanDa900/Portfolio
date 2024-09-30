@@ -16,7 +16,7 @@ const Abuotme = () => {
       <div className="txt_container">
         <div className="txt-me">
           <p>
-            <p>
+            {/* <p>
               ¡Hola! Mi nombre es Juan David Arévalo Ramírez y tengo 18 años. Soy de Colombia,
               un país lleno de vibrantes culturas. Mi interés
               por el desarrollo de software comenzó hace menos de 3 años, pero
@@ -41,6 +41,17 @@ const Abuotme = () => {
               habilidades y contribuyendo a proyectos innovadores. Estoy
               emocionado por lo que el futuro me depara en el mundo del
               desarrollo de software.
+            </p> */}
+            <p>
+              <strong>¡Hola!</strong> soy <span className="highlight">Juan David Arévalo Ramírez</span>, un joven colombiano de 18
+              años apasionado por el desarrollo de software. Comencé en este
+              campo <span className="highlight">hace menos de 3 años</span> y, desde entonces, he crecido
+              enormemente. Me gradué como <span className="highlight">técnico en desarrollo de software</span> y
+              continúo mi formación para ser un profesional. Durante mis
+              prácticas, lideré un equipo de soporte y proyectos, donde adquirí
+              valiosos conocimientos y propuse ideas innovadoras. Mi meta es
+              seguir desarrollando mis habilidades y contribuir a proyectos que
+              impulsen la innovación en este campo emocionante.
             </p>
           </p>
         </div>
@@ -86,7 +97,6 @@ const Abuotme = () => {
             <FontAwesomeIcon icon={faUser} />
             ux ui
           </li>
-          
         </ul>
       </div>
     </div>

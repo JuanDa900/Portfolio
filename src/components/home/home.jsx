@@ -12,15 +12,16 @@ const Home = () => {
           <img src={img.github} alt="" className="images1" />
         </div>
         <div className="info">
-        <h1>
-            Hola soy <span className="highlight">Juan David Arévalo Ramírez</span> desarrollador jr
+          <h1>
+            Hola soy{" "}
+            <span className="highlight">Juan David Arévalo Ramírez</span>{" "}
+            desarrollador jr
           </h1>
           <p>
-            Con 8 meses de experiencia en el dinámico campo del desarrollo de
-            software, he estado inmerso en un mundo de constante evolución y
-            desafíos técnicos. Mi enfoque creativo y mi pasión por la innovación
-            me han permitido contribuir a proyectos significativos, donde he
-            aplicado mis habilidades en programación y resolución de problemas
+            Con 8 meses de experiencia en desarrollo de software, he contribuido
+            a proyectos significativos, aplicando mi creatividad y pasión por la
+            innovación para resolver desafíos técnicos y aportar soluciones
+            efectivas
           </p>
         </div>
       </div>
@@ -32,12 +33,18 @@ const Home = () => {
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/juan-david-ar%C3%A9valo-ram%C3%ADrez-061349266/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/juan-david-ar%C3%A9valo-ram%C3%ADrez-061349266/"
+              target="_blank"
+            >
               <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/13rMhjEGcVg9swtRV-MF4V1Ub92j1tbOT/view?usp=sharing" target="_blank">
+            <a
+              href="https://drive.google.com/file/d/13rMhjEGcVg9swtRV-MF4V1Ub92j1tbOT/view?usp=sharing"
+              target="_blank"
+            >
               <FontAwesomeIcon icon={faFileAlt} /> Ver CV
             </a>
           </li>
