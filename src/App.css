@@ -235,6 +235,7 @@ html {
 
 .lk_prj {
   text-decoration: none;
+  color: #7f0ca5;
 }
 
 .lk_prj svg {
@@ -304,7 +305,7 @@ html {
 }
 
 .Card_xp h2 {
-  color: #B510EC;
+  color: #7f0ca5;
   font-size: 1.5em; 
 }
 
@@ -334,11 +335,9 @@ html {
 .block {
   animation: appear 5s linear;
   animation-timeline: view();
-  animation-range: entry 30% cover 40%;
+  animation-range: entry 0% cover 20%;
 
 }
-
-
 
 /* Responsive */
 
