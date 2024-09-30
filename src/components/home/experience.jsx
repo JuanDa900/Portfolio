@@ -3,7 +3,7 @@ import { img } from "../img/img";
 
 const Experience = () => {
   return (
-    <div className="Container3">
+    <div className="Container3 block">
       <div className="Card_xp">
         <div className="xp_info">
           <h2>Disruptive</h2>

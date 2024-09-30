@@ -12,7 +12,7 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 const Abuotme = () => {
   return (
-    <div>
+    <div className="block">
       <div className="txt_container">
         <div className="txt-me">
           <p>
