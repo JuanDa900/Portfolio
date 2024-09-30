@@ -5,7 +5,7 @@ import { faFolder } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = () => {
   return (
-    <div className="ctn_projects">
+    <div className="ctn_projects block">
       <div className="ctn_card">
         <div className="style_card">
           <img src={img.Regiones} alt="Img" className="Card_img" />

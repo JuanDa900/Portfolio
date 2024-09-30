@@ -7,7 +7,7 @@ import { faFileAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const Home = () => {
   return (
     <>
-      <div className="container">
+      <div className="container block">
         <div className="images">
           <img src={img.github} alt="" className="images1" />
         </div>
