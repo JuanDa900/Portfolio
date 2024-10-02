@@ -21,7 +21,9 @@ function App() {
         </div>
 
         <div id="sobre-mi" className="Separator">
-          <h1><FontAwesomeIcon icon={faUser} /> Sobre mí</h1>
+          <h1>
+            <FontAwesomeIcon icon={faUser} /> Sobre mí
+          </h1>
         </div>
 
         <div>
@@ -29,7 +31,9 @@ function App() {
         </div>
 
         <div id="proyectos" className="Separator">
-          <h1><FontAwesomeIcon icon={faCode} /> Proyectos</h1>
+          <h1>
+            <FontAwesomeIcon icon={faCode} /> Proyectos
+          </h1>
         </div>
 
         <div>
@@ -37,7 +41,9 @@ function App() {
         </div>
 
         <div id="experiencia" className="Separator">
-          <h1><FontAwesomeIcon icon={faBriefcase} /> Experiencia</h1>
+          <h1>
+            <FontAwesomeIcon icon={faBriefcase} /> Experiencia
+          </h1>
         </div>
 
         <div>
