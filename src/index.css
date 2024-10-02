@@ -3,6 +3,7 @@
   :root {
     color: #213547;
     background-color: #f5f5f5;
+    transition: background-color 1s ease, color 1s ease;
   }
   a:hover {
     color: #7f0ca5;
