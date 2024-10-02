@@ -369,6 +369,7 @@ html {
 .dark-theme {
   background-color: #0f0e11;
   color: #ffffff;
+  transition: 1s;
 }
 
 .dark-theme .highlight {
@@ -400,6 +401,7 @@ html {
 
 .dark-theme .ctn_card {
   background-color: #1f1f1f;
+  transition: 1s;
 }
 
 .dark-theme .lk_prj {
@@ -412,6 +414,7 @@ html {
 
 .dark-theme .txt_container {
   background-color: #1f1f1f;
+  transition: 1s;
   border-color: #7f0ca5;
 }
 
@@ -419,6 +422,7 @@ html {
 .dark-theme .ls_skills li,
 .dark-theme .Card_xp {
   background-color: #1f1f1f;
+  transition: 1s;
   border-color: #7f0ca5;
   color: #fff;
 }
@@ -437,4 +441,8 @@ html {
 
 .dark-theme .Theme svg{
   color: #ffd43c;
+}
+
+.dark-theme .Theme svg:hover{
+  color: #cf3eff;
 }
